@@ -46,9 +46,13 @@ body {
     padding: 0 6px;
     color: hsl(216, 15%, 48%);
 }
-@media (max-width: 1024px) {
+@media (max-width: 1024px), (max-width: 800px) {
     .attribution {
         opacity: 0;
         pointer-events: none;
+    }
+    .container {
+        position: sticky;
+        bottom: 200px;
     }
 }
